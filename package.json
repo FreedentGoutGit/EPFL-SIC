@@ -1,0 +1,14 @@
+{
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "concurrently": "^7.0.0"
+  },
+  "scripts": {
+    "build:css": "tailwindcss build -i ./src/input.css -o ./src/output.css",
+    "build": "mkdir -p dist && cp -r src/* ./dist/",
+    "start": "concurrently \"npm run build:css -- --watch\" \"npm run build\" \"live-server ./dist --port=3000 --entry-file=index.html --watch=dist\""
+  },
+  "dependencies": {
+    "flowbite": "^2.2.1"
+  }
+}

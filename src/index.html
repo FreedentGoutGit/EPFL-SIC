@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EPFL CARBON TEAM</title>
+    <link rel="stylesheet" href="./output.css">
+    <script src="./flowbite.min.js"></script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body class="bg-zinc-950  text-white">
+    <nav>
+        <div class="w-full bg-zinc-950 flex flex-wrap items-center justify-between mx-auto p-0 fixed z-10 shadow-lg">
+            <div class="flex items-center space-x-3 rtl:space-x-reverse px-4 py-3">
+                <img src="images/logoCarbon.png" class="h-10 object-contain" alt="Flowbite Logo" />
+            </div>
+            <button data-collapse-toggle="navbar-default" type="button"
+                class="inline-flex items-center p-2 m-4 w-10 h-10 justify-center text-sm text-white rounded-lg md:hidden hover:bg-white hover:text-zinc-950 focus:outline-none focus:ring-2 focus:ring-gray-200"
+                aria-controls="navbar-default" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                    viewBox="0 0 17 14">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M1 1h15M1 7h15M1 13h15" />
+                </svg>
+            </button>
+            <div class="hidden w-full md:flex md:w-auto uppercase self-stretch items-center" id="navbar-default">
+                <ul
+                    class="font-bold flex flex-col md:p-0 mt-4 md:flex-row self-stretch items-center md:space-x-8 rtl:space-x-reverse md:mt-0">
+                    <li class="flex self-stretch items-center">
+                        <a href="#our_idea"
+                            class="flex self-stretch items-center w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-y-[1px] border-zinc-300 md:border-0"
+                        >
+                        Our idea
+                    </a>
+                    </li>
+                    <li class="flex self-stretch items-center">
+                        <a href='#semesters_projects'
+                            class="flex self-stretch items-center  w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-b-[1px] border-zinc-300 md:border-0">
+                            Semester's projects
+                        </a>
+                    </li>
+                    <li class="flex self-stretch items-center">
+                        <a href="#our_team"
+                            class="flex self-stretch items-center w-full  p-4 text-white hover:bg-white hover:text-zinc-950 border-b-[1px] border-zinc-300 md:border-0">
+                            The team
+                        </a>
+                    </li>
+                    <li class="flex self-stretch items-center">
+                        <a href="#contact"
+                            class="flex self-stretch items-center w-full p-4 text-white hover:bg-white hover:text-zinc-950 border-b-[1px] border-zinc-300 md:border-0">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div
+        class="flex flex-col font-bold items-center min-h-screen justify-center bg-gradient-to-b from-zinc-950 to-zinc-900 px-5">
+        <img src="images/logoCarbon.png" alt="Logo of the EPFL Carbon Team" class="h-48 object-contain mb-12">
+        <h1 class="text-4xl md:text-5xl lg:text-6xl">CAPTURE THE CO2</h1>
+        <div class="flex flex-wrap items-end justify-center gap-1 max-w-[400px] mt-1 font-light text-zinc-300 text-lg lg:text-xl">
+            <span>AT</span>
+            <span>THE</span>
+            <span>EXIT</span>
+            <span>OF</span>
+            <span class="font-bold text-white">GAS</span>
+            <span class="font-bold text-white">BOILERS</span>
+            <span>OR</span>
+            <span>DIRECTLY</span>
+            <span>FROM</span>
+            <span>THE</span>
+            <span class="font-bold text-white">ATMOSPHERE</span>
+        </div>
+    </div>
+
+
+    <section id="our_idea" class="flex w-full bg-gradient-to-b from-zinc-900 to-zinc-950 py-10">
+        <div class="flex-col w-full text-center">
+            <h2 class="text-5xl font-semibold mb-2 text-center">OUR IDEA</h2>
+            <hr class="max-w-32 mx-auto my-3" />
+            <p class="text-xl text-zinc-300 max-w-screen-md mx-auto p-8">
+                At the Carbon Team, we develop a prototype able to capture CO2 with
+                <span class="font-bold text-white">cheap material</span> and <span class="font-bold text-white">low
+                    energy</span> so that the process can be easily scaled up!
+            </p>
+            <div class="flex w-full items-center flex-wrap">
+                <div class="flex flex-col w-full lg:w-1/2 p-8 gap-4">
+                    <img src="images/schema.webp"
+                        alt="Image that shows our second generation prototype of carbon capture"
+                        class="rounded-xl drop-shadow-[0_5px_15px_rgba(200,200,200,0.1)] object-contain">
+                </div>
+                <div class="flex flex-col w-full lg:w-1/2 p-8">
+                    <img src="images/proto.webp"
+                        alt="Image that shows our second generation prototype of carbon capture"
+                        class="rounded-xl drop-shadow-[0_5px_15px_rgba(200,200,200,0.1)] object-contain">
+                </div>
+            </div>
+            <p class="text-xl text-zinc-300 max-w-screen-md mx-auto p-8">
+                But we also research ways to permanently <span class="font-bold text-white">store</span> the CO2
+                underground
+            </p>
+            <div class="flex w-full items-center flex-wrap">
+                <div class="flex flex-col w-full lg:w-1/2 p-8">
+                    <img src="images/exterieur.jpg"
+                        alt="Image that shows our second generation prototype of carbon capture"
+                        class="rounded-xl drop-shadow-[0_5px_15px_rgba(200,200,200,0.1)] object-contain">
+                </div>
+                <div class="flex flex-col w-full lg:w-1/2  p-8 gap-4">
+                    <img src="images/ground.jpg"
+                        alt="Image that shows our second generation prototype of carbon capture"
+                        class="rounded-xl drop-shadow-[0_5px_15px_rgba(200,200,200,0.1)] object-contain">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="semesters_projects" class="flex w-full bg-gradient-to-b from-zinc-950 to-zinc-900 py-10">
+        <div class="flex-col w-full text-center p-8">
+            <h2 class="text-5xl font-semibold mb-2 text-center">SEMESTER'S PROJECTS</h2>
+            <hr class="max-w-32 mx-auto my-3" />
+            <p class="text-xl text-zinc-300 max-w-screen-md mx-auto">
+                Want to receive ECTS credits for a semester's project or for a master thesis? You are at the right
+                place!
+            </p>
+            <p class="text-xl text-zinc-300 max-w-screen-md mx-auto">
+                No matter how much credits you need, we will adapt the project so that it fits your need and the time
+                you
+                have.
+            </p>
+            <p class="text-xl text-zinc-300 max-w-screen-md mx-auto">
+                NEW SEMESTER PROJECTS AVAILABLE FOR AUTUMN 2024
+            </p>
+            <p class="text-xl text-zinc-300 max-w-screen-md mx-auto">
+                Contact us at contact@epflcarbonteam.ch for more detailed information. Can't wait to discuss with you!
+            </p>
+            
+
+            <div class="flex flex-col w-full max-w-screen-md mx-auto">
+                <select id="categorySelect"
+                    class="appearance-none flex cursor-pointer focus:ring-transparent focus:border-transparent mx-auto mt-3 bg-white border border-zinc-300 text-zinc-950 text-sm rounded-lg text-center px-2.5 py-1">
+                    <option selected>Select your section</option>
+                    <option value="ar">AR</option>
+                    <option value="gc">GC</option>
+                    <option value="sie">SIE</option>
+                    <option value="cgc">CGC</option>
+                    <option value="ma">MA</option>
+                    <option value="ph">PH</option>
+                    <option value="el">EL</option>
+                    <option value="gm">GM</option>
+                    <option value="mt">MT</option>
+                    <option value="mx">MX</option>
+                    <option value="in">IN</option>
+                    <option value="sc">SC</option>
+                    <option value="sv">SV</option>
+                    <option value="nx">NX</option>
+                    <option value="if">IF</option>
+                    <option value="mte">MTE</option>
+                    <option value="dh">DH</option>
+                    <option value="shs">SHS</option>
+                    <option value="cms">CMS</option>
+                </select>
+            </div>
+
+            <div id="categoryContent"
+                class="flex flex-col justify-start items-center gap-3 mx-auto max-w-screen-md py-4">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="our_team" class="flex w-full bg-gradient-to-b from-zinc-900 to-zinc-950 py-10">
+        <div class="flex-col w-full text-center">
+            <div class="px-8">
+                <h2 class="text-5xl font-semibold mb-2 text-center">THE TEAM</h2>
+                <hr class="max-w-32 mx-auto my-3" />
+                <p class="text-xl text-zinc-300 max-w-screen-md mx-auto">
+                    We are composed of 20 motivated students who are convinced that we can use what we learn in class to
+                    fight against <span class="font-bold text-white">climate change</span>
+                </p>
+            </div>
+            <div class="flex w-full items-center justify-center">
+                <div class="flex flex-col w-full p-8">
+                    <img src="images/photo2024.jpeg" alt="Image that shows our second generation prototype of carbon capture"
+                        class="rounded-xl drop-shadow-[0_10px_15px_rgba(200,200,200,0.15)] object-cover max-h-[500px]">
+                </div>
+            </div>
+            <div class="px-8">
+                <h2 class="text-3xl font-semibold mb-2 text-center">WE ARE RECRUITING!</h2>
+                <div class="text-xl text-zinc-300 max-w-screen-md mx-auto">
+                    <p>We are particulary looking for...</p>
+                    <div class="text-white font-bold flex flex-col gap-1 my-4">
+                        <p>An internal relations manager</p>
+                        <p>A communication manager</p>
+                        <p>A logistics manager</p>
+                    </div>
+                    <p>
+                        However, we are open to any other profile. If you are interested, please send us an email at
+                        <a class="font-bold text-white hover:underline " href="mailto:contact@epflcarbonteam.ch">
+                            contact@epflcarbonteam.ch</a>. We will be happy to meet you!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="flex w-full bg-gradient-to-b from-zinc-950 to-zinc-900 py-10">
+        <div class="flex-col w-full text-center">
+            <div class="px-8">
+                <h2 class="text-5xl font-semibold mb-2 text-center">CONTACT</h2>
+                <hr class="max-w-32 mx-auto my-3" />
+                <p class="text-xl text-zinc-300 max-w-screen-md mx-auto mb-3">
+                    Intersested in one of our credited project ? You want to be part of the association ? Then write us
+                    at
+                    the following adress !
+                </p>
+                <a href="mailto:contact@epflcarbonteam.ch"
+                    class="text-xl lg:text-3xl font-semibold mb-2 text-center hover:underline">
+                    contact@epflcarbonteam.ch
+                </a>
+            </div>
+            <div class="flex w-full items-center justify-center">
+                <div class="flex flex-col w-full p-8">
+                    <img src="images/lab.webp" alt="Image that shows our second generation prototype of carbon capture"
+                        class="rounded-xl drop-shadow-[0_10px_15px_rgba(200,200,200,0.15)] object-cover max-h-[500px] object-[50%_40%]">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="flex flex-col w-full items-center justify-center p-4 bg-zinc-900">
+        <p>&copy; 2024 EPFL CARBON TEAM</p>
+    </footer>
+
+    <script>
+        const categorySelect = document.getElementById('categorySelect');
+        const categoryContent = document.getElementById('categoryContent');
+
+        const projectDescriptions = {
+            ar: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            gc: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            sie: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            cgc: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            ma: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            ph: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            el: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            gm: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            mt: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            mx: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            in: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            sc: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            sv: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            nx: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            if: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            mte: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            dh: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            shs: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+            cms: [
+                { text: "Semester project I: Idefix-A purification and storage unit", pdf: "./docs/Idefix_A purification and storage unit.pdf" },
+                { text: "Semester project II: VTSA vs TSA", pdf: "./docs/SP_2_VTSA vs TSA.pdf" },
+                { text: "Semester project III: Sorbent Beds design", pdf: "./docs/SP_3_Sorbent Beds.pdf" },
+                { text: "Semester project IV: Amine sorbent scale-up (Still not completely defined/described)", pdf: "" },
+                { text: "Other semester projects possible", pdf: "./docs/Other.pdf" }
+            ],
+        };
+
+        categorySelect.addEventListener('change', function () {
+            const selectedCategory = categorySelect.value;
+            categoryContent.innerHTML = '';
+
+            if (selectedCategory !== 'none' && projectDescriptions[selectedCategory]) {
+                projectDescriptions[selectedCategory].forEach(description => {
+                    const listItem = document.createElement('a');
+                    listItem.className = 'flex p-3 bg-zinc-800 rounded-xl py-2 px-3 w-full hover:bg-white hover:text-zinc-950 transition ease-in-out duration-200 items-center';
+                    listItem.href = description.pdf;
+                    listItem.target = '_blank';
+                    listItem.textContent = description.text;
+                    categoryContent.appendChild(listItem);
+                });
+            }
+        });
+    </script>
+</body>
+
+</html>
